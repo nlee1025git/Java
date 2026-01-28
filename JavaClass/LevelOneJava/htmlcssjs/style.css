@@ -44,6 +44,7 @@ nav { /* this styling has the CSS weight of 0-0-1, which is the lightest CSS wei
     align-items: center;
     height: 100%;
     margin: 2.50rem;
+    text-align: center;
 }
 
 #transaction-dashboard {
@@ -59,7 +60,9 @@ nav { /* this styling has the CSS weight of 0-0-1, which is the lightest CSS wei
 #transaction-form {
     height: 20%;
     background-color: rgb(202, 207, 211);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #transaction-table{
