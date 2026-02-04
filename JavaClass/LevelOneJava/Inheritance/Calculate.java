@@ -1,7 +1,7 @@
 package Inheritance;
 
 public abstract class Calculate {
-    public static final double pi = 3.14;
+    public static final double PI = 3.14;
 
     public abstract int add(int num1, int num2);
 

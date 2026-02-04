@@ -39,7 +39,7 @@ public class Calculator extends Calculate {
 
     // adds pi to double
     public double add(double num) {
-        return num + pi;
+        return num + Calculate.PI;
     }
 
     // double the int num
